@@ -1,0 +1,164 @@
+* {
+  font-family: monospace;
+}
+
+body, html {
+  height: 100%;
+}
+
+body { 
+  /* The image used */
+  background-image: url("/Users/hilly/Pictures/pinkgreen.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(250, 139, 139);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: fill;
+}
+
+#navigationBar {
+  height:auto;
+  text-align:50px;
+  width:100%;
+  text-align: center;
+}
+
+#navigationBar > ul > li {
+  display:inline;
+  text-align:center;
+  cursor: pointer;
+}
+
+#navigationBar > ul > li > a {
+  color:#000000;
+  display:inline-block;
+  height:60px;
+  line-height:60px;
+  margin:0px;
+  padding:0px 15px;
+  text-decoration:none;
+  transition: color 0.15s ease-in;
+  font-weight: 800;
+  text-align:center;
+}
+
+#navigationBar > ul > li > a:hover {
+  color:#000000;
+}
+
+.container{
+    width: 1500px;
+    height: 500px;
+    margin: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:318px;
+    height:318px;
+    margin :70px 28px 40px 29px;
+    border:2px black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.container ul li .heading{
+    width: 100%;
+    height:50px;
+    line-height: 50px; 
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.container div{
+  font-family: monospace;
+}
+
+.pictures {
+  width: 318px;
+  height: 318px;
+}
+
+.pictures2 {
+  width: 300px;
+  height: 375px;
+}
+
+.logo {
+  width: 200px;
+}
+
+<!--home-->
+
+.containerhome {
+  float:left;
+    list-style: none;
+    width:318px;
+    height:318px;
+    margin :20px 28px 40px 29px;
+    border:2px black;
+    box-sizing: border-box;
+}
+
+.containerhome ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.containerhome ul li{
+    float:left;
+    list-style: none;
+    width:318px;
+    height:318px;
+    margin :50px;
+    border:2px black;
+    box-sizing: border-box;
+}
+
+.containerhome ul li .heading{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: white;   
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
