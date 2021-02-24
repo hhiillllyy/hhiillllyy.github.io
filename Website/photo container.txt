@@ -1,8 +1,0 @@
-<div class="container">
-	        <ul>
-	            <li> <div class="heading"></div> <a><img src="" class="pictures" onclick="addToBasket('',000);"></a></li>
-	            <li> <div class="heading"></div> <a><img src="" class="pictures" onclick="addToBasket('',000);"></a></li>
-	            <li> <div class="heading"></div> <a><img src="" class="pictures" onclick="addToBasket('',000);"></a></li>
-	            <li> <div class="heading"></div> <a><img src="" class="pictures" onclick="addToBasket('',000);"></a></li>
-	        </ul>
-    	</div>
