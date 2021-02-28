@@ -1,0 +1,86 @@
+* {
+  font-family: monospace;
+}
+
+body, html {
+  height: 100%;
+}
+
+body { 
+  /* The image used */
+  background-image: url("/Users/hilly/Documents/dr/Pictures/csgoyea.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: fill;
+}
+
+/* text editor styles */
+.text-editor-wrap {
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+  clear: both;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; 
+}
+
+a {
+  text-decoration:none;
+  color: #2980b9;
+}
+
+.title-bar {
+  padding: 5px 0;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+  background-color: #f8f8f8;
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+  background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+  box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+  border-bottom: #6a6a6a 1px solid; 
+}
+
+.text-body {
+  height: px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px;
+  color: #f0f0f0;
+  text-shadow: #000 0px 1px 0px;
+  font-size: 16px;
+  line-height: 1.40em;
+  font-weight: 500;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; 
+}
+
+.footer {
+  background-color: rgba(128, 128, 128, 0.219);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  padding: 25px;
+}
+
