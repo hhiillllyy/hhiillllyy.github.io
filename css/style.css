@@ -84,3 +84,13 @@ html {box-sizing: border-box;}
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
