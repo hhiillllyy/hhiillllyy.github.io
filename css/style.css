@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
   margin: auto;
+  width: 1080px;
 }
 
 body { 
@@ -46,17 +47,17 @@ header, section, footer {
 	padding: 10px;
 }
 
-
 html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
+*,  *:after {box-sizing: inherit;}
 
 .image-section {
   padding-top: 100px;
-  padding-bottom: 400px;
+  padding-bottom: 450px;
 }
 
 .small-image-box {
   padding: 20px;
+  padding-bottom: 20px;
   display: inline-block;
   margin-left: 20px;
   width: 100px;
@@ -76,11 +77,15 @@ html {box-sizing: border-box;}
 
 .textbox{
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 70px;
 }
 
 .yt{
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.logo{
+  size: 40px;
 }
