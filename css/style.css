@@ -2,9 +2,28 @@
   font-family: monospace;
   background-color: burlywood;
   text-align: center;
-  
+  color: black;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 .logo{
-  padding-top: 250px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.links{
+  padding: 40px;
+  padding-bottom: 100px;
+  color: black;
+}
+
+footer {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+  bottom: 0;
 }
