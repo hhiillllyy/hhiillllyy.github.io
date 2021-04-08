@@ -1,8 +1,22 @@
 * {
   font-family: monospace;
-  background-color: burlywood;
   text-align: center;
   color: black;
+}
+
+body { 
+  /* The image used */
+  background-image: url("/Users/hilly/Documents/In progress/Pictures/wood.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: burlywood;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: fill;
 }
 
 .logo{
@@ -12,11 +26,4 @@
 .links{
   padding-bottom: 100px;
   color: black;
-}
-
-footer {
-  position: relative;
-  padding-top: 50px;
-  text-align: center;
-  bottom: 0;
 }
