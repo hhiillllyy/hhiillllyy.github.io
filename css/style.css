@@ -1,30 +1,22 @@
 * {
   font-family: monospace;
-  text-align: left;
-  color: #f0aa47;
-}
-
-body { 
-    /* The image used */
-    background-image: url("/Users/hilly/Documents/In progress/Pictures/wood.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: burlywood;
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: fill;
+  background-color: burlywood;
+  text-align: center;
+  color: black;
 }
 
 .logo{
-  padding-top: 220px;
+  padding-top: 250px;
 }
 
 .links{
   padding-bottom: 100px;
-  padding-left: 1000px;
   color: black;
+}
+
+footer {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+  bottom: 0;
 }
