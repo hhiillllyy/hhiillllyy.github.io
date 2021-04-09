@@ -1,29 +1,30 @@
 * {
   font-family: monospace;
-  text-align: center;
-  color: black;
+  text-align: left;
+  color: burlywood;
 }
 
 body { 
-  /* The image used */
-  background-image: url("/Users/hilly/Documents/In progress/Pictures/wood.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: burlywood;
+    /* The image used */
+    background-image: url("Pictures/wood.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: burlywood;
 
-  /* Full height */
-  height: 100%; 
+    /* Full height */
+    height: 100%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-size: fill;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: fill;
 }
 
 .logo{
-  padding-top: 250px;
+  padding-top: 220px;
 }
 
 .links{
   padding-bottom: 100px;
+  padding-left: 1000px;
   color: black;
 }
