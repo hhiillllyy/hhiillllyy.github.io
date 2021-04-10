@@ -6,7 +6,7 @@
 
 body { 
   /* The image used */
-  background-image: url("/Users/hilly/Documents/In progress/Pictures/wood.png");
+  background-image: url("Pictures/wood.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: burlywood;
