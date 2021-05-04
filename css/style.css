@@ -19,8 +19,10 @@ body {
   background-size: fill;
 }
 
-.logo{
-  padding-top: 250px;
+.logo {
+  padding-top: 80px;
+	width: 50%;
+	height: auto;
 }
 
 .links{
