@@ -1,120 +1,12 @@
 * {
-    color: black;
-    font-family: monospace;
+  font-family: monospace;
+  text-align: center;
+  color: black;
+  background-color: burlywood;
 }
 
 .logo {
-    padding-top: 80px;
-	width: 50%;
-	height: auto;
+  padding-top: 80px;
+  width: 50%;
+  height: auto;
 }
-
-body {
-    background-color: royalblue;
-    text-align: center;
-}
-
-body {
-    /* The image used */
-    background-image: url("pictures/hex.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: cover;
-}
-
-.topnav {
-  overflow: hidden;
-  padding: 40px;
-}
-
-.topnav a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.linkimage {
-  padding: 20px;
-}
-
-.small-image {
-  padding-top: 50px;
-}
-
-.landing {
-	padding-bottom: 40px;
-}
-
-.button {
-	border: 3px solid black;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	background-color: rgba(255, 255, 255, 0);
-    border-radius: 10px;
-  }
-
-  .responsive {
-	width: 80%;
-	height: auto;
-	padding-top: 140px;
-  }
-
-
-
-/*socials*/
-
-.socials, ul, li, img{
-	padding: 10px;
-}
-
-li {
-    display: inline-block;
-	border: 3px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-  }
- 
-  
-
-/*mission shit*/
-
-.mission {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    justify-items: stretch;
-    align-items: stretch;
- }
-
- .card {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 40px;
-	padding-right: 40px;
-	width: 90%;
-	height: auto;
-	margin: auto;
- }
-
- .yt{
-   padding-top: 50px;
-   padding: 30px;
- }
-
- .iframe{
-   border: 10px solid;
-  border-color: black;
- }
