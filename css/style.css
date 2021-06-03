@@ -16,7 +16,7 @@ body {
 
 body {
     /* The image used */
-    background-image: url("/Users/hilly/Documents/morewebsites/pictures/hex.png");
+    background-image: url("pictures/hex.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 
